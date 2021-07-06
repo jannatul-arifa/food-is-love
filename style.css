@@ -1,6 +1,27 @@
 body{
-    font-family:'Noto Sans KR', sans-serif;;
+    font-family: 'Oswald', sans-serif;
 }
 .color{
-    color: orange;
+    color: rgba(36, 17, 206, 0.295);
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+.half-bg{
+    width: 50%;
+    padding-left: 10%;
+}
+.half-bg img{
+    width: 80%;
+}
+.food-order{
+    text-decoration: none;
+    background-image: linear-gradient(yellow, orange);
+    padding: 10px 30px;
+    border-radius: 7px;
+    color: black;
+    font-weight: 800;
 }
