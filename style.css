@@ -7,7 +7,7 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+.recipe-guide{
     display: flex;
 }
 .half-bg{
@@ -31,40 +31,47 @@ section{
     background-repeat: no-repeat;
 
 }
-.my-recipes{
-    background-color: white;
-}
-.myrecipe-container{
-    width: 80%;
+.my-recipe{
     text-align: center;
-    margin: 0 auto;
-}
-.myrecipes-title{
-    width: 65%;
+    color: dimgray;
     margin: 50px auto;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
 }
-.myrecipes-title h1{
-    font-size: 55px;
+.recipes-list{
+    display: flex;
+    width: 30%;
+    padding-left: 10px;
 }
-.myrecipes-title p{
-    font-size: 22px;
+.first-recipe{
+    margin-left:15%;
+    margin-right:15%;
+    box-shadow:10px 10px 20px red;
 }
-.my-recipes-card{
-    border: 1px solid white;
-    border-radius: 40px;
-    box-shadow: 10px 10px 20px rgb(143,143,143);
-    margin: 30px 50px;
+.second-recipe{
+    margin-left:15%;
+    margin-right:15%;
+    box-shadow:10px 10px 20px red;
 }
-.card{
-    margin: 30px, auto;
-    text-align: justify;
+.third-recipe{
+    margin-left:15%;
+    margin-right:15%;
+    box-shadow:10px 10px 20px red;
 }
-.card-img{
-    text-align: center;
+
+.recipes-list img{
+    height: 200px;
+    width: 200px;
+    border-radius: 1px;
 }
-.card-img{
-    height: 300px;
-    width: 350px;
-    border-radius: 40px;
-    text-align: center;
+.second-recipe img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 15px 15px;
+}
+.third-recipe img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
 }
