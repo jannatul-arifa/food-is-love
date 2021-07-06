@@ -38,31 +38,39 @@ h1{
     margin-bottom: 50px;
     padding-bottom: 15px;
 }
+.my-recipe p{
+    padding-left: 20%;
+    padding-right: 20%;
+}
 .recipes-list{
     display: flex;
     width: 30%;
-    padding-left: 10px;
+    padding-left: 12%;
 }
 .first-recipe{
     margin-left:15%;
     margin-right:15%;
-    box-shadow:10px 10px 20px red;
+    box-shadow:10px 10px 20px gray;
+    padding: 2%;
 }
 .second-recipe{
-    margin-left:15%;
-    margin-right:15%;
-    box-shadow:10px 10px 20px red;
+    margin-left:5%;
+    margin-right:5%;
+    box-shadow:10px 10px 20px gray;
+    padding: 2%;
 }
 .third-recipe{
     margin-left:15%;
     margin-right:15%;
-    box-shadow:10px 10px 20px red;
+    box-shadow:10px 10px 20px gray;
+    padding: 2%;
 }
 
 .recipes-list img{
     height: 200px;
     width: 200px;
     border-radius: 1px;
+    margin: 15px 15px;
 }
 .second-recipe img{
     height: 200px;
@@ -74,4 +82,32 @@ h1{
     height: 200px;
     width: 200px;
     border-radius: 10px;
+    margin: 15px 15px;
+}
+.first-recipe h2{
+    text-align: center;
+}
+.second-recipe h2{
+    text-align: center;
+}
+.third-recipe h2{
+    text-align: center;
+}
+.first-recipe p{
+    text-align: justify;
+}
+.second-recipe p{
+    text-align: justify;
+}
+.third-recipe p{
+    text-align: justify;
+}
+.followers{
+    width: 80%;
+    padding-top: 50px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow:5px 5px 10px gray;
 }
